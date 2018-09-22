@@ -11,7 +11,11 @@ import './assets/styles/border.css'
 import fastClick from 'fastclick'
 //  引入iconfont
 import './assets/styles/iconfont.css'
+// 引入轮播图 在项目所在目录中执行目录cnpm install vue-awesome-swiper --save
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+import 'swiper/dist/css/swiper.css'
 
+Vue.use(VueAwesomeSwiper)
 Vue.config.productionTip = false
 fastClick.attach(document.body)
 

@@ -3,7 +3,9 @@
     <div class="header">
       <div class="header-left"><div class="iconfont icon-back">&#xe628;</div></div>
       <div class="header-input"><span class="iconfont">&#xe648;</span>请输入游玩景点</div>
+      <router-link to="/city">
       <div class="header-right">城市<span class="iconfont icon-attr">&#xe662;</span></div>
+      </router-link>
     </div>
   </div>
 </template>
